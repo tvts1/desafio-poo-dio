@@ -59,7 +59,7 @@ public class Dev {
         return Collections.unmodifiableSet(conteudosConcluidos);
     }
 
-    // Métodos para adicionar/remover conteúdos podem ser criados se necessário
+    // Métodos para adicionar/remover conteúdos podem ser criados se necessário.
 
     @Override
     public boolean equals(Object o) {
