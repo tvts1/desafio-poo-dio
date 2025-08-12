@@ -59,15 +59,3 @@ classDiagram
     Conteudo <|-- Mentoria
     Dev "1" --> "*" Conteudo : inscritos
     Dev "1" --> "*" Conteudo : concluidos
-
-
-
-Este projeto modela um sistema simples de gestão de bootcamps para desenvolvedores.
-
-A classe Bootcamp representa um curso intensivo com nome, descrição, data inicial e final, e mantém uma lista dos desenvolvedores inscritos (Dev) e dos conteúdos oferecidos (Conteudo).
-
-Conteudo é uma classe abstrata que serve como base para diferentes tipos de conteúdo, como Curso (que tem carga horária) e Mentoria (que tem uma data).
-
-A classe Dev representa um desenvolvedor que pode se inscrever em um bootcamp, acompanhar os conteúdos inscritos, progredir e acumular experiência (XP) conforme conclui os conteúdos.
-
-Cada conteúdo calcula XP baseado em regras específicas: cursos multiplicam um XP padrão pela carga horária; mentorias somam um valor fixo adicional.
