@@ -61,6 +61,7 @@ classDiagram
     Dev "1" --> "*" Conteudo : concluidos
 
 
+
 Este projeto modela um sistema simples de gestão de bootcamps para desenvolvedores.
 
 A classe Bootcamp representa um curso intensivo com nome, descrição, data inicial e final, e mantém uma lista dos desenvolvedores inscritos (Dev) e dos conteúdos oferecidos (Conteudo).
